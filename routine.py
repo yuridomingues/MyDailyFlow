@@ -1,0 +1,51 @@
+routine = {
+    "Segunda-feira": [
+        ("6:00 - 6:30", "Acordar + tomar levotiroxina com água em jejum"),
+        ("6:30 - 7:30", "Esperar 1 hora antes de consumir café ou alimentos"),
+        ("7:30 - 8:00", "Café da manhã (café preto + omelete + castanha-do-pará)"),
+        ("8:00 - 14:00", "Trabalho"),
+        ("14:00 - 14:45", "Deslocamento para casa"),
+        ("14:45 - 15:00", "Almoço"),
+        ("15:00 - 17:00", "Tempo com namorada"),
+        ("17:00 - 18:00", "Treino A (Superiores)"),
+        ("18:00 - 18:10", "Lanche pós-treino (whey protein com água)"),
+        ("18:10 - 19:00", "Deslocamento para faculdade"),
+        ("19:00 - 22:00", "Faculdade"),
+        ("22:00 - 22:30", "Deslocamento para casa"),
+        ("22:30 - 23:00", "Jantar leve (salmão + quinoa + aspargos)"),
+        ("23:00 - 23:30", "Relaxar (ler, ouvir música, conversar)"),
+        ("23:30", "Dormir")
+    ],
+    "Terça-feira": [
+        ("6:00 - 6:30", "Acordar + tomar levotiroxina com água em jejum"),
+        ("6:30 - 7:30", "Treino B (Inferiores e Core)"),
+        ("7:30 - 8:00", "Café da manhã (café preto + omelete + castanha-do-pará)"),
+        ("8:00 - 14:00", "Trabalho"),
+        ("14:00 - 14:45", "Deslocamento para casa"),
+        ("14:45 - 15:00", "Almoço"),
+        ("15:00 - 17:00", "Tempo com namorada"),
+        ("17:00 - 18:00", "Lanche e deslocamento para faculdade"),
+        ("18:00 - 22:00", "Faculdade"),
+        ("22:00 - 22:30", "Deslocamento para casa"),
+        ("22:30 - 23:00", "Jantar leve (salmão + quinoa + aspargos)"),
+        ("23:00 - 23:30", "Relaxar (ler, ouvir música, conversar)"),
+        ("23:30", "Dormir")
+    ],
+    "Quarta-feira": [
+        ("6:00 - 6:30", "Acordar + tomar levotiroxina com água em jejum"),
+        ("6:30 - 7:30", "Esperar 1 hora antes de consumir café ou alimentos"),
+        ("7:30 - 8:00", "Café da manhã (café preto + omelete + castanha-do-pará)"),
+        ("8:00 - 14:00", "Trabalho"),
+        ("14:00 - 14:45", "Deslocamento para casa"),
+        ("14:45 - 15:00", "Almoço"),
+        ("15:00 - 17:00", "Tempo com namorada"),
+        ("17:00 - 18:00", "Treino A (Superiores)"),
+        ("18:00 - 18:10", "Lanche pós-treino (whey protein com água)"),
+        ("18:10 - 20:00", "Fazer aula online"),
+        ("20:00 - 22:00", "Estudar Física"),
+        ("22:00 - 22:30", "Jantar leve (salmão + quinoa + aspargos)"),
+        ("22:30 - 23:30", "Projeto com Hugo"),
+        ("23:30", "Dormir")
+    ],
+    # Adicione os outros dias da semana aqui...
+}
