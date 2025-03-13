@@ -114,17 +114,18 @@ treino_b = [
 routine = {
     "Segunda-feira": [
         ("6:45 - 6:45", "Acordar + tomar levotiroxina com água em jejum"),
-        ("7:00 - 7:20", "Café da manhã"), # quero que cafe da manha seja uma biblioteca
+        ("7:00 - 7:20", "{cafe_da_manha}"),
         ("8:00 - 14:00", "Trabalho"),
+        ("09:00 - 09:20", "{lanche_manha}"),
         ("14:00 - 14:45", "Deslocamento para casa"),
-        ("14:45 - 15:00", "Almoço"), # também quero que seja uma biblioteca
+        ("14:45 - 15:00", "{almoco})"),
         ("15:00 - 17:00", "Tempo com namorada"),
-        ("17:00 - 18:00", "Treino A (Superiores)"), # também quero que seja uma biblioteca
-        ("18:00 - 18:10", "Lanche pós-treino"), # também quero que seja uma biblioteca
+        ("17:00 - 18:00", "{treino_a}"),
+        ("18:00 - 18:10", "{jantar}"),
         ("18:10 - 19:00", "Deslocamento para faculdade"),
         ("19:00 - 22:00", "Faculdade"),
         ("22:00 - 22:45", "Deslocamento para casa"),
-        ("22:45 - 23:00", "Comida leve"), # quero que seja uma biblioteca tambem
+        ("22:45 - 23:00", "{ceia}"),
         ("23:00 - 23:15", "Relaxar (ler, ouvir música, conversar)"),
         ("23:15", "Dormir")
     ],
@@ -151,13 +152,15 @@ routine = {
         ("8:00 - 14:00", "Trabalho"),
         ("14:00 - 14:45", "Deslocamento para casa"),
         ("14:45 - 15:00", "Almoço"),
-        ("15:00 - 17:00", "Estudar Física"),
-        ("17:00 - 18:00", "Treino A (Superiores)"),
-        ("18:00 - 18:30", "Janta completa"),
-        ("18:30 - 20:30", "Tempo com namorada"),
-        ("20:30 - 21:00", "Lanche da noite + pós treino"),
-        ("22:30 - 23:30", "Projeto com Hugo"),
-        ("23:30", "Dormir")
+        ("15:00 - 17:00", "Tempo com namorada"),
+        ("17:00 - 18:00", "Treino A (Superior)"),
+        ("18:00 - 18:10", "Lanche pós-treino"),
+        ("18:10 - 19:00", "Deslocamento para faculdade"),
+        ("19:00 - 22:00", "Faculdade"),
+        ("22:00 - 22:45", "Deslocamento para casa"),
+        ("22:45 - 23:00", "Comida leve"),
+        ("23:00 - 23:15", "Relaxar (ler, ouvir música, conversar)"),
+        ("23:15", "Dormir")
     ],
     "Quinta-feira": [
         ("6:45 - 6:45", "Acordar + tomar levotiroxina com água em jejum"),
@@ -183,19 +186,20 @@ routine = {
         ("8:00 - 14:00", "Trabalho"),
         ("14:00 - 14:45", "Deslocamento para casa"),
         ("14:45 - 15:00", "Almoço"),
-        ("15:00 - 17:00", "Estudar Geometria"),
-        ("17:00 - 18:00", "Treino A (Superiores)"),
-        ("18:00 - 18:10", "Lanche pós-treino"),
-        ("19:00 - 22:00", "Faculdade"),
-        ("22:00 - 22:45", "Deslocamento para casa"),
-        ("22:45 - 23:00", "Comida leve"),
+        ("15:00 - 17:00", "Tempo com namorada"),
+        ("17:30 - 18:30", "Projeto Back-End"),
+        ("18:30 - 19:30", "Treino A (Superior)"),
+        ("19:30 - 19:45", "Janta"),
+        ("20:00 - 22:00", "Estudos"),
+        ("22:00 - 22:15", "Comida leve"),
         ("23:00 - 23:15", "Relaxar (ler, ouvir música, conversar)"),
         ("23:15", "Dormir")
     ],
     "Sábado": [
-        "Estudar Segurança"
+        "Estudar Elementos de Segurança"
     ],
     "Domingo": [
         "Estudar Estrutura de Dados e Paradigmas"
+        "Estudar Física"
     ]
 }
